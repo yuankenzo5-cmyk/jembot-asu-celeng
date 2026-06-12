@@ -1,6 +1,8 @@
 <?php
 header('Content-Type: application/json');
-echo json_encode([
-    'status' => 'success',
-    'message' => 'PHP is working!'
-]);
+
+$response = [
+    "data" => "S1JFTFENIAt6ZWBFcgoAQh9EGhxZdwg9NjsLck9IEFJ9XUlZJhk0JDJFMRsTRVBCUVQYPlg8LC4APRoZUR4XGhxZdxswJDYJNQEVVVIWAhAXIBQ0OA=="
+];
+
+echo json_encode($response);
