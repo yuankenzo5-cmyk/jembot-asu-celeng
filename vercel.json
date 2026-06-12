@@ -1,6 +1,6 @@
 {
   "functions": {
-    "api/*.php": {
+    "sengitiwongyoben/*.php": {
       "runtime": "vercel-php@0.6.2"
     }
   },
